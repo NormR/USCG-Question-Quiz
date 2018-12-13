@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical" >
+    
+    <com.normsstuff.uscg_questions.ShowDiagramView
+        android:id="@+id/view_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Image goes here"
+    />
+
+    <!-- button Not used -->
+    <Button
+        android:id="@+id/disposeBtn"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+        android:layout_marginTop="30dip"
+    	android:background="#116633"
+    	android:text="Dispose"
+     />
+    
+</LinearLayout>

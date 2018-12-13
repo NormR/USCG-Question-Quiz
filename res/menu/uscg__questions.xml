@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <item android:id="@+id/book_source"
+          android:title="Question books" 
+          android:showAsAction="ifRoom" 
+          android:layout_gravity="left">
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/book1"
+                  android:title="Rules of the Road (Book 1)" />
+            <item android:id="@+id/book2"
+                  android:title="General Deck Questions (Book 2)" />
+            <item android:id="@+id/book3"
+                  android:title="General Navigation Questions (Book 3)" />
+        </menu>
+    </item>
+     
+    <item android:id="@+id/tofirstques" 
+          android:title="Go to first question">
+    </item>
+    
+    <item android:id="@+id/gotoquestion"
+        android:title="Go to question...">
+        
+    </item>
+    
+    <item android:id="@+id/randomize" 
+        android:title="Randomize order" 
+        android:checked="false" 
+        android:checkable="true"
+        android:visible="true" 
+        android:enabled="true">
+        
+    </item>
+    
+   
+    <item android:id="@+id/save_position"
+          android:title="Save current position">
+    </item>
+           
+    <item android:id="@+id/resume" 
+          android:title="Resume at saved position">
+    </item>
+    
+    <item android:id="@+id/about" 
+          android:title="About">
+    </item>
+    
+    <item android:id="@+id/exit" 
+          android:title="Exit">
+    </item>
+ 
+</menu>

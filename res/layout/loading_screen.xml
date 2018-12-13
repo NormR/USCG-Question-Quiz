@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+    
+    <ProgressBar
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         style="@android:style/Widget.ProgressBar.Small"
+         android:layout_marginRight="5dp" />
+    
+     <TextView
+         android:id="@+id/loading_msg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:text="Loading file" />
+     
+     <!-- Following needed for ListActivity class -->
+     <ListView
+         android:id="@android:id/list"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:background="@color/answer_background"
+         android:choiceMode="singleChoice" 
+         android:singleLine="true"
+         android:textStyle="bold" >
+     </ListView>
+ 
+</LinearLayout>
